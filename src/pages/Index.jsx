@@ -57,7 +57,7 @@ const Index = () => {
           className="bg-yellow-600 hover:bg-blue-900 text-white px-3 py-1 font-bold uppercase mb-2"
           onClick={() => navigate("clientes/nuevo")}
         >
-          {">> Novo Cliente"}
+          Novo Cliente
         </button>
       </div>
       {clientes.length ? (

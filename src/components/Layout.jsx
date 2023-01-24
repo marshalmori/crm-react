@@ -13,7 +13,7 @@ const Layout = () => {
           <Link
             className={`${
               location.pathname === "/" ? "text-yellow-500" : "text-white"
-            } text-2xl block mt-2 hover:text-blue-400`}
+            } text-2xl block mt-2 hover:text-blue-700 hover:bg-white`}
             to="/"
           >
             Clientes
@@ -23,7 +23,7 @@ const Layout = () => {
               location.pathname === "/clientes/nuevo"
                 ? "text-yellow-500"
                 : "text-white"
-            } text-2xl block mt-2 hover:text-blue-400`}
+            } text-2xl block mt-2 hover:text-blue-700 hover:bg-white`}
             to="/clientes/nuevo"
           >
             Novo Clientes
