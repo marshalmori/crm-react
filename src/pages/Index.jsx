@@ -1,9 +1,12 @@
 import { Fragment } from "react";
 import { useLoaderData, useNavigate } from "react-router-dom";
 import Cliente from "../components/Cliente";
+import { obtenerClientes } from "../data/clientes";
 
 export function loader() {
-  return clientes;
+  const clientes = obtenerClientes();
+
+  return;
 }
 
 const Index = () => {
