@@ -26,7 +26,7 @@ const Layout = () => {
             } text-2xl block mt-2 hover:text-blue-700 hover:bg-white`}
             to="/clientes/nuevo"
           >
-            Novo Clientes
+            Novo Cliente
           </Link>
         </nav>
       </aside>
