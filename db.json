@@ -9,36 +9,12 @@
       "id": 1
     },
     {
-      "nombre": "Karen",
-      "empresa": "Código com Marshal",
-      "email": "karen@juan.com",
-      "telefono": "138198313",
-      "notas": "Código com Marshal",
-      "id": 2
-    },
-    {
       "nombre": "Josue",
       "empresa": "Código com Marshal",
       "email": "josue@juan.com",
       "telefono": "31983913",
       "notas": "Código com Marshal",
       "id": 3
-    },
-    {
-      "nombre": "Miguel",
-      "empresa": "Código com Marshal",
-      "email": "miguel@juan.com",
-      "telefono": "319381983",
-      "notas": "Código com Marshal",
-      "id": 4
-    },
-    {
-      "nombre": "Pedro",
-      "empresa": "Código com Marshal",
-      "email": "pedro@juan.com",
-      "telefono": "1398198938",
-      "notas": "Código com Marshal",
-      "id": 5
     },
     {
       "nombre": "Daniel Suzi M Cavalheiro",
