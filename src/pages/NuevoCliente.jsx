@@ -8,10 +8,20 @@ export async function action({ request }) {
 
   const datos = Object.fromEntries(formData);
 
+  const email = formData.get("email");
+
   //Validação
   const errores = [];
   if (Object.values(datos).includes("")) {
     errores.push("Todos os campos são obrigatórios.");
+  }
+
+  //Validação do email
+  let regex = new RegExp(
+    "([!#-'*+/-9=?A-Z^-~-]+(.[!#-'*+/-9=?A-Z^-~-]+)*|\"([]!#-[^-~ \t]|(\\[\t -~]))+\")@([!#-'*+/-9=?A-Z^-~-]+(.[!#-'*+/-9=?A-Z^-~-]+)*|[[\t -Z^-~]*])"
+  );
+  if (!regex.test(email)) {
+    errores.push("O email não é válido.");
   }
 
   //Retornar dados se tem erros
