@@ -6,7 +6,7 @@ import { obtenerClientes } from "../data/clientes";
 export function loader() {
   const clientes = obtenerClientes();
 
-  return;
+  return clientes;
 }
 
 const Index = () => {
