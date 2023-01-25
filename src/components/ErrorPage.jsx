@@ -10,7 +10,7 @@ export default function ErrorPage() {
       </h1>
       <h2 className="text-center text-3xl">Ocorreu um erro.</h2>
       <p className="text-center text-xl text-blue-700">
-        <strong>Erro:</strong> {error.message}
+        <strong>Erro:</strong> {error.statusText || error.message}
       </p>
     </div>
   );
